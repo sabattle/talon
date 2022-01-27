@@ -1,15 +1,58 @@
-from talon import Context, registry, app
+from talon import Context
 
 ctx = Context()
 
+ctx.lists["user.letter"] = {
+    "air": "a",
+    "bat": "b",
+    "cap": "c",
+    "drum": "d",
+    "each": "e",
+    "fine": "f",
+    "gust": "g",
+    "harp": "h",
+    "ink": "i",
+    "joy": "j",
+    "crunch": "k",
+    "look": "l",
+    "made": "m",
+    "near": "n",
+    "odd": "o",
+    "pit": "p",
+    "quench": "q",
+    "red": "r",
+    "sun": "s",
+    "trap": "t",
+    "urge": "u",
+    "vest": "v",
+    "whale": "w",
+    "plex": "x",
+    "yank": "y",
+    "zip": "z",
+}
 
-def _add_keys():
-    """
-    Put this in a launch listener so it runs after knausj
-    """
-    special_keys = registry.lists["user.special_key"][0].copy()
-    special_keys["del"] = special_keys.pop("delete")
-    ctx.lists["self.special_key"] = special_keys
+ctx.lists["user.special_key"] = {
+    "shock": "enter",
+    "escape": "escape",
+    "push": "home",
+    "pop": "end",
+    "insert": "insert",
+    "pagedown": "pagedown",
+    "page down": "pagedown",
+    "pageup": "pageup",
+    "page up": "pageup",
+    "space": "space",
+    "tab": "tab",
+    "junk": "backspace",
+    "trash": "delete",
+}
 
 
-app.register("launch", _add_keys)
+@ctx.capture("user.letter", rule="{user.letter}")
+def letter(m):
+    return str(m)
+
+
+@ctx.capture("user.special_key", rule="{user.special_key}")
+def special_key(m):
+    return str(m)

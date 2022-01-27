@@ -24,7 +24,8 @@
 		"ms-python.python",
 		"ms-python.vscode-pylance",
 		"davidanson.vscode-markdownlint",
-		"redhat.vscode-yaml"
+		"redhat.vscode-yaml",
+		"mrob95.vscode-talonscript"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
