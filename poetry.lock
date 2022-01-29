@@ -269,7 +269,7 @@ diagrams = ["jinja2", "railroad-diagrams"]
 name = "pyyaml"
 version = "6.0"
 description = "YAML parser and emitter for Python"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -364,7 +364,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "d2711fd9e94e69cb5f414a6d7a510bcc974d6844210e54373298bf2c0660cef4"
+content-hash = "4b706f0b34da4a76d1315e21c622fb3e97c69394f855655946f667eb933440c9"
 
 [metadata.files]
 argcomplete = [

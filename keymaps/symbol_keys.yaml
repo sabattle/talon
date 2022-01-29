@@ -1,0 +1,68 @@
+dot: .
+point: .
+period: .
+comma: ","
+question: "?"
+question mark: "?"
+bang: "!"
+exclamation mark: "!"
+exclamation point: "!"
+quote: "'"
+apostrophe: "'"
+dubquote: "\""
+double quote: "\""
+back tick: "`"
+grave: "`"
+semi: ;
+semicolon: ;
+colon: ":"
+slash: /
+forward slash: /
+backslash: "\\"
+pipe: "|"
+minus: "-"
+dash: "-"
+tack: "-"
+down score: _
+under score: _
+tilde: "~"
+equals: "="
+plus: +
+star: "*"
+asterisk: "*"
+hash: "#"
+hash sign: "#"
+number sign: "#"
+percent: "%"
+percent sign: "%"
+at sign: "@"
+amper: "&"
+ampersand: "&"
+and sign: "&"
+square: "["
+L square: "["
+left square: "["
+R square: "]"
+right square: "]"
+paren: (
+L paren: (
+left paren: (
+R paren: )
+right paren: )
+brace: "{"
+L brace: "{"
+left brace: "{"
+R brace: "}"
+right brace: "}"
+angle: <
+langle: <
+L angle: <
+left angle: <
+less than: <
+rangle: ">"
+R angle: ">"
+right angle: ">"
+greater than: ">"
+caret: ^
+dollar: $
+pound: £
