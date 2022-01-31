@@ -15,11 +15,13 @@ flake8 = "^4.0.1"
 black = "^21.12b0"
 commitizen = "^2.20.4"
 mypy = "^0.931"
+types-PyYAML = "^6.0.3"
 
 [tool.black]
 line-length = 120
 
 [tool.mypy]
+show_error_codes = true
 ignore_missing_imports = true
 disallow_untyped_defs = true
 
